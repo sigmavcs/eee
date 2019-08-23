@@ -60,7 +60,7 @@
           "proxyIntegration": false,
           "enableCORS": false,
           "stageMode": 0,
-          "stageName": "Dev",
+          "stageName": "Test",
           "mode": 0
         }
       }
