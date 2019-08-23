@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "60ef4843-fd14-4802-be5e-4d7591338a2a": {
+        "id": "60ef4843-fd14-4802-be5e-4d7591338a2a",
+        "parent": null,
+        "name": "eee",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "63e7bff2-5b69-41d8-b5dd-32b473532b1e"
+        ],
+        "isRemovable": false,
+        "filePath": "eee"
+      },
+      "63e7bff2-5b69-41d8-b5dd-32b473532b1e": {
+        "id": "63e7bff2-5b69-41d8-b5dd-32b473532b1e",
+        "parent": "60ef4843-fd14-4802-be5e-4d7591338a2a",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "eee/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "60ef4843-fd14-4802-be5e-4d7591338a2a",
+    "openFiles": [
+      "63e7bff2-5b69-41d8-b5dd-32b473532b1e"
+    ],
+    "currentFileId": "63e7bff2-5b69-41d8-b5dd-32b473532b1e",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "eee",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566560398825
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "eee",
+      "url": "https://github.com/sigmavcs/eee"
+    }
+  }
+}
