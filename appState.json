@@ -30,7 +30,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [
+          {
+            "resourceName": "apigusEast1APIapiany",
+            "config": {}
+          }
+        ]
       }
     },
     "deletedFiles": [],
@@ -39,7 +44,27 @@
       "63e7bff2-5b69-41d8-b5dd-32b473532b1e"
     ],
     "currentFileId": "63e7bff2-5b69-41d8-b5dd-32b473532b1e",
-    "resources": {},
+    "resources": {
+      "apigusEast1APIapiany": {
+        "name": "apigusEast1APIapiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "API",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "api",
+          "resourcePath": "/api",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Dev",
+          "mode": 0
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
